@@ -23,7 +23,7 @@ USAGE
    
 
 3) That's all! After your form submission you will have a POST variable called "jscheck". 
-   If this variable is set to "yes" Javascript is enabled, if the variable is empty Javascript is not ebabled.
+   If this variable is set to "yes" Javascript is enabled, if the variable is empty Javascript is not enabled.
    Here is a basic example in PHP:
    
    if ($_POST['jscheck'] == "yes"){
